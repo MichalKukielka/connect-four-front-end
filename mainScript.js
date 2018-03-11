@@ -107,7 +107,7 @@ var currentPlayer = 1;
 var currentName = playerOne;
 var currentColor = playerOneColor;
 
-$('h3').text(playerOne + " it's your turn. Plesae pick a column to drop in.")
+$('h3').text(playerOne + " it's your turn. Please pick a column to drop in.")
 
 $('.board button').on('click', function() {
 
